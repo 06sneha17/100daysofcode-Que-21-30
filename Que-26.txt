@@ -1,0 +1,19 @@
+// Write a  program to print numbers from 1 to n
+#include <stdio.h>
+int main() {
+    int n, i;
+    // prompt the user to enter a number
+    printf("Enter a positiven integer (n): ") ;
+    scanf("%d", &n);
+    // check if n is positive
+    if (n <= 0) {
+        printf("Please enter a poistive integer.\n");
+        return 1; // indicate an error
+    }
+    // print numbers from 1 to n using a for loop
+    printf("NUmbers from 1 to %d are:\n", n);
+    for (i = 1; i <= n; i++);
+  }
+printf("\n") ; // print a newline for better formatting
+    return 0; // indicate successful execution
+}
