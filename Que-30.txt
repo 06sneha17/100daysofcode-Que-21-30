@@ -1,0 +1,22 @@
+// write a program to reverse a given number
+#include <stdio.h>
+
+int main() {
+    int num, reversenum = 0, rem,ainder; // declare variables for input, reverse number, and remainder
+    //prompt the user to enter an integer
+    printf("Enter an integer: ") ;
+    scanf("%d", &num): // read the integer entered by the user and store it in 'num'
+// create a temporary variable to hold the original number for later output
+int tempnum = num;
+// loop until the number become 0
+while (num ! = 0) 
+    remainder = num % 10; // get the last digit of the number(e.g., 123 % 10 = 3)
+    reversednum = reversenum * 10 + reaminder; // build the reversed number;
+    // (e.g., 0 * 10 + 3 = 3), then (3 * 10 + 2 = 32), then (32 * 10 +1 = 321)
+    num = num/ 10;
+}
+// display the original and reversed numbers
+printf("Original Number; %d\n", tempnum);
+printf("Reversed Number: %d\n", reversednum);
+    return 0; // indicate successful execution of the program
+}
